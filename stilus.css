@@ -1,6 +1,11 @@
+body {
+  background-color: #3d5c5c;
+  color: white;
+}
 .error {
-  padding: 20px;
-  background-color: pink;
+  text-align: center;
+  padding: 2px;
+  background-color: #ff99c2;
   display: none;
 }
 fieldset {
@@ -17,4 +22,12 @@ fieldset > * {
 input {
   width: 90%;
   padding: 5px;
+}
+.user {
+  text-align: center;
+  border: white 1px solid;
+  padding: 2px 20px;
+  width: 30%;
+  min-width: 200px;
+  margin: 20px auto;
 }

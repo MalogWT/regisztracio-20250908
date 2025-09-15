@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stilus.css">
   <title>Regisztráció</title>
-  <script src="szkript.js"></script>
+  <script src="szkript.js" defer></script>
 </head>
 <body>
   <h1>Felhasználói regisztráció</h1>
-	<p> Módosítva by TA </p>
   <div class="error">
     <!-- ide kell írni a hibaüzneteket -->
+     <p id="errLog">error</p>
   </div>
-  <form action="#">
+  <form action="#" onsubmit="return CheckForm()">
     <fieldset>
       <legend>Regisztráció</legend>
       <label for="login">Felhasználónév</label>
